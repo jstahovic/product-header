@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-product-header',
+  selector: 'product-header',
   templateUrl: './product-header.component.html',
-  styleUrls: ['./product-header.component.css']
+  styleUrls: ['./product-header.component.css'],
+  encapsulation: ViewEncapsulation.Emulated,
 })
 export class ProductHeaderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

@@ -5,7 +5,7 @@
     "ng": "ng",
     "makepretty": "prettier '**/*.ts' --write",
     "start": "npm run makepretty && ng serve --port 5000",
-    "build": "npm run makepretty && ng build",
+    "build": "npm run makepretty && ng build --output-hashing=none",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
